@@ -5,6 +5,11 @@ import Login from '../pages/Login';
 const AuthStack = createStackNavigator(
     {
         Login
+    },
+    {
+        defaultNavigationOptions: {
+            headerShown: false,
+        },
     }
 );
 
